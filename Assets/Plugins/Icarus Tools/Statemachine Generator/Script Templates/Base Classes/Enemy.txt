@@ -1,0 +1,23 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+
+//This class is for developing logic that is the same for all the enemies
+public class Enemy : MonoBehaviour
+{
+    protected virtual void Awake()
+    {
+        base.Awake();
+    }
+
+    protected virtual void Start()
+    {
+        base.Start();
+    }
+
+    protected virtual void Update()
+    {
+        base.Update();
+    }
+}
