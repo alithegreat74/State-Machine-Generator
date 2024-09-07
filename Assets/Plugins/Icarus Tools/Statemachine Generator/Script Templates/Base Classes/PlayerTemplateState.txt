@@ -6,7 +6,7 @@ public class Player#StateNameState : PlayerState
 {
 
 
-    public Player#StateNameState(Entity entity, Statemachine stateMachine, string animBoolName, Player player) : base(entity, statemachine, animBoolName, player)
+    public Player#StateNameState(Entity entity, Statemachine stateMachine, string animBoolName, Player player) : base(entity, stateMachine, animBoolName, player)
     {
     }
 

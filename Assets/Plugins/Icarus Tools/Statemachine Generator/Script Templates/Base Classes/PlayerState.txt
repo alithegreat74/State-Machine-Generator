@@ -7,7 +7,7 @@ public class PlayerState : State
 
     protected Player player;
 
-    public PlayerState(Entity entity, Statemachine stateMachine, string animBoolName, Player player) : base(entity, statemachine, animBoolName)
+    public PlayerState(Entity entity, Statemachine stateMachine, string animBoolName, Player player) : base(entity, stateMachine, animBoolName)
     {
         this.player=player;
     }

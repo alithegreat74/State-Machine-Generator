@@ -14,7 +14,7 @@ public class Entity : MonoBehaviour
 
     protected virtual void Awake()
     {
-        statemachine=new statemachine();
+        statemachine=new Statemachine();
     }
 
     protected virtual void Start()
