@@ -7,29 +7,37 @@
 
 # Statemachine Generator
 
-This is a unity tool made for creating and structuring a statemachine in your project. This tool helps to remove the redundancy in your projects and saves you from copying code over and over
+The **Statemachine Generator** is a Unity tool designed to simplify and streamline the creation of state machines in your project. This tool eliminates the redundancy of manually copying and re-writing code for different states, allowing you to focus more on gameplay logic rather than boilerplate code.
 
 ## Screenshots
 
-![App Screenshot](Pics/Screenshots/1.png)
-![App Screenshot](Pics/Screenshots/2.png)
-![App Screenshot](Pics/Screenshots/3.png)
-![App Screenshot](Pics/Screenshots/4.png)
-## How to use
+<img src="Pics/Screenshots/1.png" alt="App Screenshot" width="400"/>
+<img src="Pics/Screenshots/2.png" alt="App Screenshot" width="400"/>
+<img src="Pics/Screenshots/3.png" alt="App Screenshot" width="400"/>
+<img src="Pics/Screenshots/4.png" alt="App Screenshot" width="400"/>
 
-go to Tools>IcarusTools>State machine Generator to open the panel for this tool
+## How to Use
 
-- Create the base Scripts int the first panel
+1. Open the tool from **Tools > IcarusTools > State machine Generator**.
+2. Use the **Base Scripts** panel to create your foundational state machine scripts.
+3. Switch to the **Player Scripts** panel to create and manage player-specific states and transitions.
+4. Use the **Enemy Base Scripts** panel for creating enemy base logic.
+5. Finally, use the **Enemy States** panel to create new enemies and define their behaviors.
 
-- Create the player scripts in the seccond panel
+Each panel is designed to minimize redundancy and generate clean, organized code for you.
 
-- Create the enemy base scripts in the third panel
-
-- Create new enemies and enemy states in the fourth panel
 
 
 ## Code Structure
 
-If you're wondering how your code structure would look if you use this tool don't worry you can check the diagram I made to see your class structure (the actual diagram file is int Assets/Diagrams if the picture is not completely visible)
+The generated code follows a well-organized structure, keeping your state machine classes modular and manageable. You can review the class hierarchy and relationships in the diagram below.
 
 ![UML](Assets/Diagrams/TheStructureOfTheStatemachine.png)
+
+*Note: The full diagram file is available in `Assets/Diagrams` if the image is not fully visible.*
+
+## Installation
+
+1. Download the package from [Link to Download](https://github.com/alithegreat74/State-Machine-Generator/releases).
+2. Import the package into your Unity project.
+3. Open the **State Machine Generator** from the Tools menu.
