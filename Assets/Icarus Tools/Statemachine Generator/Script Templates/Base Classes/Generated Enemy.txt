@@ -1,0 +1,36 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class #EnemyName : Enemy
+{
+    
+
+    #region States
+    #StatesDeclaration
+    #endregion
+
+
+    protected override void Awake()
+    {
+        base.Awake();
+        #StatesInitialization
+    }
+
+    protected override void Start()
+    {
+        base.Start();
+        //#EnemyName starts in the set state if you want to change the first state, change the argument
+        #StateMachineInitialization
+    }
+
+    protected override void Update()
+    {
+        base.Update();
+        statemachine.currentState.Update();
+    }
+
+}
+
+
+

@@ -6,8 +6,8 @@ using UnityEngine;
 //This class is for developing logic that is the same for all the enemy states
 public class EnemyState:State
 {
-    protected Enemy enemyBase
-    public State(Entity entity, Statemachine stateMachine, string animBoolName, Enemy enemyBase) : base(entity,statemachine,animBoolName)
+    protected Enemy enemyBase;
+    public EnemyState(Entity entity, Statemachine stateMachine, string animBoolName, Enemy enemyBase) : base(entity,stateMachine,animBoolName)
     {
         this.enemyBase=enemyBase;
     }
@@ -25,7 +25,7 @@ public class EnemyState:State
 
     public override void Exit()
     {
-        base.Exit()
+        base.Exit();
     }
 
 }
